@@ -8,10 +8,8 @@ body {
 	color: #a5a5a7;
 	font-family: Tahoma, Geneva, sans-serif;
 	font-size: 13px;
-	line-height: 1.5em; 
-	background-color: #303030;
-	background-repeat: repeat;
-	background-image: url(images/tooplate_body.png)
+	line-height: 1.5em;
+    background: #303030 url(images/tooplate_body.png) repeat;
 }
 
 a, a:link, a:visited { 
@@ -31,7 +29,7 @@ a.more {
 	line-height: 26px; 
 	color: #000; 
 	text-align: center; 
-	background: url(images/tooplate_more_btn.png) no-repeat; 
+	background: url(images/tooplate_more_btn.png) no-repeat;
 	font-weight: 700; 
 	text-decoration: none; 
 }
@@ -114,7 +112,7 @@ h6 { font-size: 13px; margin: 0 0 5px; padding: 0; }
 	color:#fff; 
 	margin: 0 0 5px 0; 
 	padding: 0 0 0 20px; 
-	background: url(images/tooplate_list.png) no-repeat scroll 0 7px;  
+	background: url(images/tooplate_list.png) no-repeat scroll 0 7px;
 }
 
 .tooplate_list li a { 
@@ -195,18 +193,9 @@ h6 { font-size: 13px; margin: 0 0 5px; padding: 0; }
 	margin-top: 46px; 
 }
 
-#site_title h1 { 
-	margin: 0; 
-	padding: 0; 
-}
-
-#site_title h1 a { 
-	display: block; 
-	width: 220px; 
-	height: 40px; 
-	color: #fff; 
-	text-indent: -10000px; 
-	background: url(images/tooplate_logo.png) no-repeat top left; 
+#site_title h3 {
+	margin: 10px;
+	padding: 0;
 }
 
 #tooplate_menu { 
@@ -686,22 +675,22 @@ h6 { font-size: 13px; margin: 0 0 5px; padding: 0; }
 	padding-left: 30px; 
 }
 
-.footer_link li .facebook { 
-	background: url(images/facebook.png) left center no-repeat; 
+.footer_link li .facebook {
+	background: url(images/facebook.png) left center no-repeat;
 }
 
-.footer_link li .linkedin { 
-	background: url(images/linkedin.png) left center no-repeat; 
+.footer_link li .linkedin {
+	background: url(images/linkedin.png) left center no-repeat;
 }
 
-.footer_link li .myspace { 
-	background: url(images/myspace.png) left center no-repeat; 
+.footer_link li .myspace {
+	background: url(images/myspace.png) left center no-repeat;
 }
 
-.footer_link li .youtube { 
-	background: url(images/youtube.png) left center no-repeat; 
+.footer_link li .youtube {
+	background: url(images/youtube.png) left center no-repeat;
 }
 
-.footer_link li .vimeo { 
-	background: url(images/vimeo.png) left center no-repeat; 
+.footer_link li .vimeo {
+	background: url(images/vimeo.png) left center no-repeat;
 }
